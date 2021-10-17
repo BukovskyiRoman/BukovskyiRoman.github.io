@@ -15,7 +15,7 @@ body {
     box-shadow: 5px 5px 20px rgb(26, 77, 61);
 }
 
-img.avatar {
+.avatar {
     float:right;
     height:12em;
     margin-top: .1em;
@@ -23,7 +23,7 @@ img.avatar {
     box-shadow: .1em .1em .2em rgb(26, 77, 61);
 }
 
-img.avatar:hover {
+.avatar:hover {
     box-shadow: .2em .2em .3em rgb(26, 77, 61);
 }
 
