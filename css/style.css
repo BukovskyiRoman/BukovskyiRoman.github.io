@@ -2,10 +2,10 @@ body {
     background-color: rgba(141, 219, 134, 0.2);
 }
 
-div {
+.wraper {
     align-items: center;
     width: 50%;
-    max-width: 500;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -14,6 +14,7 @@ div {
     background-color: rgb(66, 117, 66, 0.2);
     box-shadow: 5px 5px 20px rgb(26, 77, 61);
 }
+
 img.avatar {
     float:right;
     height:12em;
@@ -31,31 +32,41 @@ h1 {
     font-family: 'Arvo', serif;
 }
 
-p {
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
-    font-family: 'Oswald', sans-serif;
-    text-align: left;
+.bio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
 }
 
-p.link {
-    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+.portfolio {
+    display: inline;
+    text-decoration: none;
+    margin: 0;
     font-family: 'Oswald', sans-serif;
-    color: black;
+    color: rgb(24, 44, 224);
 }
 
-img.icon {
+.portfolio:hover {
+    text-shadow: .1em .1em .2em rgb(107, 172, 245);
+}
+
+.telegram {
+    display: inline;
+    text-decoration: none;
+}
+
+.telegram p {
+    margin-top: 0px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(24, 44, 224);
+}
+
+.icon {
     vertical-align: text-bottom;
     height: 1em;
     padding: .2em;
 }
 
-a {
-    margin: 50;  
-    text-decoration: none;
-}
-
-a:hover {
+.telegram:hover {
     text-shadow: .1em .1em .2em rgb(107, 172, 245);
-    padding: 10px;
     text-decoration: none;
 }
